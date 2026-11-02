@@ -1,0 +1,96 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e3cd4c5f5a294a0e7347c4962ee13a48",
+    "packages": [
+        {
+            "name": "ekowabaka/clearice",
+            "version": "v3.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ekowabaka/clearice.git",
+                "reference": "f9ca0a68d617a94c91e090eef58cbce922e61273"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ekowabaka/clearice/zipball/f9ca0a68d617a94c91e090eef58cbce922e61273",
+                "reference": "f9ca0a68d617a94c91e090eef58cbce922e61273",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "@stable",
+                "phpunit/phpunit": "@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "clearice\\": "src/",
+                    "clearice\\tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Ekow Abaka Ainooson",
+                    "email": "jainooson@gmail.com",
+                    "homepage": "http://ekowabaka.me"
+                }
+            ],
+            "description": "A tool to help in the building of CLI apps. Provides command line parsing and simple console I/O interfaces.",
+            "support": {
+                "issues": "https://github.com/ekowabaka/clearice/issues",
+                "source": "https://github.com/ekowabaka/clearice/tree/v3.2.2"
+            },
+            "time": "2025-09-07T19:08:41+00:00"
+        },
+        {
+            "name": "ekowabaka/ui",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ekowabaka/ui.git",
+                "reference": "73b911ef3d018a58a3f8174947e71785c7ed6e84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ekowabaka/ui/zipball/73b911ef3d018a58a3f8174947e71785c7ed6e84",
+                "reference": "73b911ef3d018a58a3f8174947e71785c7ed6e84",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ekow Abaka Ainooson",
+                    "email": "jainooson@gmail.com"
+                }
+            ],
+            "description": "UI Library",
+            "support": {
+                "source": "https://github.com/ekowabaka/ui/tree/v0.2.0"
+            },
+            "time": "2025-09-07T19:35:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

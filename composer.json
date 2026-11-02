@@ -1,0 +1,19 @@
+{
+    "name": "ntentan/wyf-dev",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ntentan\\wyf_dev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "James Ekow Abaka Ainooson",
+            "email": "jainooson@gmail.com"
+        }
+    ],
+    "require": {
+        "ekowabaka/clearice": "^3.2",
+        "ekowabaka/ui": "^0.2.0"
+    }
+}
