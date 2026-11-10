@@ -15,5 +15,8 @@
     "require": {
         "ekowabaka/clearice": "^3.2",
         "ekowabaka/ui": "^0.2.0"
-    }
+    },
+    "bin": [
+        "bin/wyf"
+    ]
 }
