@@ -1,3 +1,8 @@
-#wyf-login-form {
-  width: 350px;
+#wyf-login-card {
+  width: 400px;
+  #wyf-login-form {
+    width: 100%;
+  }
 }
+
+fz-app-frame {width: 100vw; height: 100vh}
