@@ -2,9 +2,36 @@ body {
   margin: 0
 }
 
+a {
+  text-decoration: none;
+}
+
 .wyf-centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+fz-sidebar {
+  fz-sidebar-item {
+    a {
+      display: block;
+      color: inherit;
+    }
+  }
+}
+
+fz-sidebar[slot="sidebar"] {
+  position: relative;
+  top: 15px;
+}
+
+.wyf-wrapper {
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.wyf-title {
+  display: flex;
 }
