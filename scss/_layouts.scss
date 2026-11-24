@@ -34,4 +34,8 @@ fz-sidebar[slot="sidebar"] {
 
 .wyf-title {
   display: flex;
+  > .wyf-title-tool {
+    flex-grow: 1;
+    text-align: right;
+  }
 }
